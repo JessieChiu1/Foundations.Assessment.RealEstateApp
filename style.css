@@ -1,0 +1,40 @@
+/* general */
+
+* {
+    margin: 0;
+}
+
+.top {
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a {
+    margin-left: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+main > * {
+    margin: 2rem;
+}
+
+
+.add {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.add > * {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
